@@ -1,0 +1,79 @@
+#homeButton{
+    cursor: pointer;
+    margin: 50px;
+}
+#root{
+    background-color: white;
+}
+.subpageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0px);
+    box-shadow: 0px 0px 15px 9px white;
+    margin-top: 50px;
+    margin-bottom: 350px;
+    border-radius: 40px;
+    border: 4px solid black;
+}
+.subpageContentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.imageGrid{
+    display: grid;
+    grid-template-columns: 25vw 25vw;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+.subpageImg{
+    max-height: 30vh;
+    max-width: 24vw;
+    margin: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+#leftContainer{
+    width: 92%;
+    height: 100%;
+    display: inline-block;
+    padding: 24px;
+}
+#rightContainer{
+    width: 50%;
+    display: inline-block;
+}
+#subpageTitle{
+    font-size: 20px;
+    margin: 30px;
+}
+#backgroundTitle, #publicationsTitle{
+    font-weight: bold;
+    margin: 20px;
+}
+.subpageBodyContainer{
+    height: 180vh;
+}/*
+.btn-primary{
+    background-color: white;
+    border-radius: 13px;
+    padding: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+}*/
+.body-background{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
